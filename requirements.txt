@@ -1,0 +1,9 @@
+pypdf==3.16.2
+streamlit==1.27.0
+streamlit-option-menu==0.3.2
+## Dependências do projeto relatório
+jinja2
+openpyxl==3.1.2
+pandas
+pdfkit==1.0.0
+pillow

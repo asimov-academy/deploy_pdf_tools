@@ -1,0 +1,50 @@
+h1, h2, p {
+    color: #232323;
+}
+
+h1 {
+    font-family: "Roboto Black", sans-serif;
+}
+
+h2, p {
+    font-family: "Roboto Light", sans-serif;
+}
+
+.title {
+    margin-top: 4em;
+}
+
+.subtitle {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.title, .subtitle {
+    text-align: center;
+}
+
+.dataframe {
+    align-self: center;
+    font-family: "Roboto Medium", sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #232323;
+    margin: 5px 5px 10px;
+}
+
+.dataframe th{
+    font-size: 12pt;
+    background: #ff4b4b;
+    color: white;
+    border: 2px solid #232323;
+    text-align: left !important;
+}
+
+.dataframe td, th {
+    padding: 5px;
+}
+
+.dataframe td {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #232323;
+}

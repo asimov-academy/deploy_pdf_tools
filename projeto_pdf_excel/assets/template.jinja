@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <title>Relatório Mensal</title>
+  <style> {{ stylesheet }}</style>
+</head>
+
+<body>
+  <h1 class="title">Relatório Mensal</h1>
+  <p class="subtitle">Mês de referência: {{ mes_referencia }}</p>
+  <p class="subtitle">Gerado automaticamente em {{ dia }} às {{ hora }}</p>
+
+  <h2>Número de vendas por vendedor e produto</h2>
+  {{ tabela_vendas }}
+
+  <h2>Volume de vendas por vendedor e produto</h2>
+  {{ tabela_volume }}
+
+  <h2>Ticket médio por vendedor</h2>
+  {{ tabela_tm }}
+</body>
+
+</html>
